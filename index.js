@@ -92,8 +92,8 @@ const characters = [
   "/",
 ];
 
-let passwordOne = document.querySelector(".random-password-one");
-let passwordTwo = document.querySelector(".random-password-two");
+let pwOne = document.querySelector(".random-password-1");
+let pwTwo = document.querySelector(".random-password-2");
 
 function generatePassword() {
   let password1 = "";
@@ -103,7 +103,7 @@ function generatePassword() {
     let randomIndexTwo = Math.floor(Math.random() * characters.length);
     password1 += characters[randomIndexOne];
     password2 += characters[randomIndexTwo];
-    passwordOne.textContent = password1;
-    passwordTwo.textContent = password2;
+    pwOne.textContent = password1;
+    pwTwo.textContent = password2;
   }
 }

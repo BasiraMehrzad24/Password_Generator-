@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #1f2937;
+  background-color: #031b3b;
   font-family: sans-serif;
-  color: #fff;
+ 
 }
 .container {
   width: 550px;
@@ -16,29 +16,29 @@ body {
 h1 {
   font-size: 40px;
   font-weight: 800;
-  color: #fff;
+  color: lightblue;
 }
 h1 span {
-  color: #4adf86;
+  color: lightblue;
   display: block;
 }
-.slogan {
+.title {
   font-size: 20px;
-  color: #d5d4d8;
+  color:lightblue;
 }
 button {
-  background-color: #10b981;
+  background-color: lightblue;
   padding: 9px 16px;
   border: none;
   font-size: 16px;
   font-weight: 500;
   border-radius: 6px;
-  color: inherit;
+  color:#031b3b ;
   margin-top: 60px;
   cursor: pointer;
 }
 button:hover {
-  background-color: #4adf86;
+  background-color: lightseagreen;
 }
 .genrated-password {
   display: flex;
@@ -50,8 +50,8 @@ button:hover {
 .random {
   font-size: 16px;
   padding: 10px 16px;
-  color: #55f991;
+  color:lightblue;
   border-radius: 6px;
   border: none;
-  background-color: #273549;
+  background-color:lightseagreen;
 }
